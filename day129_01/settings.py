@@ -140,6 +140,7 @@ REST_FRAMEWORK = {
         "Luffy":'3/m',          #每分钟三次
         "LuffyUser":'10/m',
         #进行测试
+        #再次测试
     },
 }
 
