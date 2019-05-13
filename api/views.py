@@ -10,6 +10,7 @@ from rest_framework import exceptions
 from rest_framework.authentication import BasicAuthentication
 from api.utils.permission import MyPermission1,SvipPermission
 from api.utils.throttle import UserThrottle,VisitThrottle
+from rest_framework.viewsets import ModelViewSet
 # Create your views here.
 
 #一个订单字典

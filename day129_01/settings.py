@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
 ]
 
+from django.contrib.sessions.middleware import SessionMiddleware
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
